@@ -20,7 +20,7 @@ body{
 
 nav{
   color: #797979 !important;
-  background-color: var(--primary-color) !important;
+  background-color: var(--primary-color);
   font-family: quicksand;
 }
 
@@ -38,7 +38,7 @@ nav button{
 }
 nav button:hover{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  background-color:var(--secondary-color) ;
+  background-color: #F5F1FE;
   color: #000;
 }
 
@@ -47,7 +47,7 @@ nav button:hover{
   text-decoration: underline;
   text-underline-offset: 2.0em;
   text-decoration-thickness: 4px;
-  text-decoration-color: var(--secondary-color);
+  text-decoration-color: #000;
 } 
 
 
@@ -55,7 +55,7 @@ nav button:hover{
   text-decoration: underline;
   text-underline-offset: 2.0em;
   text-decoration-thickness: 4px;
-  text-decoration-color: var(--secondary-color);
+  text-decoration-color: black;
 }
 
 
@@ -67,13 +67,13 @@ nav button:hover{
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: 2.0;
+  opacity: 0.8;
   z-index: 0;
 }
 
 
 #image:hover{
-  opacity: 2.0;
+  /* opacity: 1.8; */
 }
 
 
